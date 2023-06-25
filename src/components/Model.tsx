@@ -55,8 +55,7 @@ const Model = ({ model, ...props }: Props) => {
 
 export default Model;
 
+// pre loading to improve performance
 useGLTF.preload("/shirt_baked.glb");
 useGLTF.preload("/Cappuccino_cup.glb");
 useTexture.preload("/depth.jpg");
-
-// ["/react.png", "/three2.png", "/pmndrs.png"].forEach(useTexture.preload);

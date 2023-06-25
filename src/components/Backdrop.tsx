@@ -1,3 +1,5 @@
+// https://discourse.threejs.org/t/accumulative-shadow-from-r3f-to-vanilla-threejs/44027/6
+
 import { AccumulativeShadows, RandomizedLight } from "@react-three/drei";
 import { useRef } from "react";
 import useModelStore from "../store";
