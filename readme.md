@@ -13,3 +13,7 @@
 3. yarn
 4. yarn dev
 ```
+
+## References 
+
+We are using [decals](https://threejs.org/examples/#webgl_decals)  from three.js to add an image overlay to our 3d models.
