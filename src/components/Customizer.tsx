@@ -21,7 +21,7 @@ const Customizer = () => {
   };
 
   return (
-    <div className="w-[400px] flex flex-col gap-y-8 border rounded-md  p-8">
+    <div className="mx-auto min-w-[300px] w-[300px] flex flex-col gap-y-8 border rounded-md  p-8">
       <ModelPicker />
       <FilePicker file={file} setFile={setFile} readFile={readFile} />
       <ColorPicker />
